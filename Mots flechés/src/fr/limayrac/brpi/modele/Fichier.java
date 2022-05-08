@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class Fichier {
 	
-	private static final String FICHIER = "D:\\BRPI\\Java\\dev\\MotFleches\\ressources\\liste_francais.txt";
+	private static final String FICHIER = "C:\\Users\\matde\\Downloads\\Matthieu Boubee de Gramont Java\\Mots flechés\\ressources\\liste_francais.txt";
 	private ArrayList <String> listeDeMots = null;
 	
 	public Fichier() {
