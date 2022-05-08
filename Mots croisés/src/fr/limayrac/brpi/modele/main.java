@@ -1,5 +1,4 @@
 package fr.limayrac.brpi.modele;
-
 public class main {
 	
 	public static void main(String[] args) {

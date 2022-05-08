@@ -19,6 +19,7 @@ public class Fichier {
 		
 	}
 	
+	//ouvrir le fichier
 	private void ouvrirFichier(){
 		try{
 			InputStream flux = Fichier.class.getResourceAsStream(FICHIER);
