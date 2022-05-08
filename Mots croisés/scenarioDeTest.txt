@@ -1,0 +1,21 @@
+* créer une grille de 6x6
+* A CHAQUE ETAPE AFFICHER LA GRILLE DANS LA CONSOLE
+  * ajouter une définition **simple** en x=5,y=4
+    * intitulé = 'pronom'
+    * mot associé = 'ME'
+    * direction = bas
+  * ajouter une définition **simple** en x=1,y=5
+    * inititulé = 'donner pour un temps'
+    * mot associé = 'pretEr'
+    * direction VD (Vertical Droite)
+    * => la grille doit renvoyer :
+      * 6 cases disponibles
+      * un 'E' en 5e position
+    * demander à la Grille : qu'est-ce qu'il y a en x=5,y=4 ?
+      * le retour doit être : une définition ('pronom' + 'ME')
+    * demander à la Grille : qu'est-ce qu'il y a en x=5,y=6 ?
+      * le retour doit être 'E'
+    * supprimer la définition **et le mot associé** ('pronom' + 'ME')
+    * (pour vérification) demander à la Grille : qu'est-ce qu'il y a en x=5,y=6 ?
+      * le retour doit être 'E' ( donc comment on gère le fait qu'une lettre peut être commune à deux mots ?)
+    * variante : ajouter une définition double en x=1,y=5
